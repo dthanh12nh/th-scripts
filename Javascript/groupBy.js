@@ -8,5 +8,5 @@ function groupBy(items, propertyName) {
 
     accumulator[key].push(current);
     return accumulator;
-  });
+  }, {});
 }
